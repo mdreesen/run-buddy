@@ -1,12 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
-
     <head>
         <meta charset="UTF-8" />
         <title>Run Buddy</title>
         <link rel="stylesheet" href="./assets/css/style.css">
     </head>
-
     <body>
         <!-- navigation -->
         <header>
@@ -33,7 +31,7 @@
                     </ul>
                 </nav>
         </header>
-
+        <!-- Hero section -->
         <section>
             <div>
                 <h3>Get Started Today</h3>
@@ -43,45 +41,48 @@
                     <label for="name">Enter full name</label>
                     <input type="text" placeholder="Your Name" name="name" id="name" />
                     <label for="email">Email Address</label>
-                    <input type="text" placeholder="Email Address" name="email" id="email" />
+                    <input type="email" placeholder="Email Address" name="email" id="email" />
                     <label for="phone">Phone Number</label>
-                    <input type="text" placeholder="Phone Number" name="phone" id="phone" />
+                    <input type="tel" placeholder="Phone Number" name="phone" id="phone" />
+                    <!-- radio buttons for working with a trainer -->
                     <p>
                         Have you worked out with a trainer before?
                         <input type="radio" name="trainer-confirm" id="trainer-yes" />
                         <label for="trainer-yes">Yes</label>
                         <input type="radio" name="trainer confirm" id="trainer-no" />
-                        <label for="trainer-no"></label>
+                        <label for="trainer-no">No</label>
                     </p>
+                    <!-- this is for the checkbox in the form -->
+                    <p>
+                        <label for="checkbox" >
+                        I acknowledge hat I am at least 18 years of age.
+                        </label>
+                        <input type="checkbox" name="age-confirm" id="checkbox" />
+                    </p>
+                    <!-- submit button at the bottom of the form-->
+                    <button type="submit" >
+                        Get running!
+                    </button>
                 </form>
             </div>
         </section>
-        
-        <!-- hero/jumbotron -->
-        <section>
-
-        </section>
-
+        <!-- End hero -->
         <!-- "what we do" section -->
         <section>
             <h2>What We Do</h2>
         </section>
-
         <!--"what you do" section -->
         <section>
             <h2>What You Do</h2>
         </section>
-
         <!-- "meet the trainers" section -->
         <section>
             <h2>Meet The Trainers</h2>
         </section>
-
         <!-- "reach out" section -->
         <section>
             <h2>Reach Out</h2>
         </section>
-
         <!-- footer -->
         <footer>
             <h2>Made with Love By Run 🏃 Buddy</h2>
