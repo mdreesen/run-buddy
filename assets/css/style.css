@@ -1,6 +1,8 @@
 * {
     margin: 0;
     padding: 0;
+    /* border box takes care of the footer extending out past the header */
+    box-sizing: border-box;
 }
 
 body {
@@ -9,11 +11,15 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+
+/* styling the header */
+/* header nav style */
 header {
     padding: 20px 35px;
     background-color: #39a6b2;
 }
 
+/* style the header text */
 header h1 {
     font-weight: bold;
     font-size: 36px;
@@ -23,11 +29,13 @@ header h1 {
     display: inline;
 }
 
+/* style the a elements */
 header a {
     text-decoration: none;
     color: #fce138;
 }
 
+/* stying the nav */
 header nav {
     float: right;
     margin: 7px 0;
@@ -45,3 +53,30 @@ header nav ul li a {
     font-size: 22px;
 }
 
+/* Footer styling */
+/* styling the footer */
+footer {
+    background: #fce138;
+    width: 100%;
+    padding: 40px 35px;
+}
+
+/* styling the header in the footer */
+footer h2 {
+    display: inline;
+    color: #024e76;
+    font-size: 30px;
+    margin: 0;
+}
+
+/* styling the footer div */
+footer div {
+    float: right;
+    line-height: 1.5;
+    text-align: right;
+}
+
+/* styling the a elements in the footer */
+footer a {
+    color: #024e76;
+}
