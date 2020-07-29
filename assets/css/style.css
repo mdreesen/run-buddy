@@ -123,6 +123,11 @@ body {
     text-align: center;
 }
 
+
+.steps {
+    background-color: #fce138;
+}
+
 .step {
     margin: 50px auto;
     padding-bottom: 50px;
@@ -134,10 +139,6 @@ body {
     justify-content: space-between;
 }
 
-.steps {
-    background-color: #fce138;
-}
-
 
 .step h3 {
     color: #024e76;
@@ -145,7 +146,7 @@ body {
     flex: 1 30%;
 }
 
-.steps-text p {
+.step-text p {
     color: #39a6b2;
     font-size: 18px;
 }
@@ -156,7 +157,7 @@ body {
     color: #024e76;
 }
 
-.steps-info {
+.step-info {
     flex: 2 70%;
     display: flex;
     flex-wrap: wrap;
